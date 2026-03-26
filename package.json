@@ -1,0 +1,32 @@
+{
+  "name": "pdf-to-photo",
+  "version": "1.0.0",
+  "description": "Convert PDF files to images (PNG/JPEG) with a clean web UI",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js",
+    "build": "node build.js"
+  },
+  "pkg": {
+    "assets": [
+      "public/**/*",
+      "node_modules/pdfjs-dist/build/**/*"
+    ],
+    "outputPath": "dist"
+  },
+  "keywords": [
+    "pdf",
+    "image",
+    "converter"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "canvas": "^3.2.2",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "path2d": "^0.3.1",
+    "pdfjs-dist": "^3.11.174"
+  }
+}

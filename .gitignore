@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Build and temp outputs
+dist/
+temp/
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large files
+*.pdf
+*.exe
