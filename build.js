@@ -96,7 +96,8 @@ class Program {
   fs.unlinkSync(csFile);
   fs.unlinkSync(ZIP_PATH);
   fs.rmSync(APP_DIR, { recursive: true, force: true });
-  fs.unlinkSync(path.join(__dirname, 'test.cs')); // clean temp test file
+  const testCsPath = path.join(__dirname, 'test.cs');
+  if (fs.existsSync(testCsPath)) fs.unlinkSync(testCsPath);
 
   console.log(`\n✅ Build complete! You now have a SINGLE file: dist\\${EXE_NAME}`);
   console.log('   You can share this one file with anyone!\n');
