@@ -17,7 +17,7 @@ A standalone, locally-hosted web application that easily and quickly converts PD
 
 You don't need to be a developer to use this application! You can simply download the pre-compiled, portable Windows executable (`.exe`) and start converting immediately.
 
-👉 **[Download PDFtoPhoto.exe (Google Drive)](https://drive.google.com/file/d/1JE64pIaZSoofqD71nplepavqIPs_lsZw/view?usp=drive_link)**
+👉 **[Download PDFtoPhoto.exe (Google Drive)]([https://drive.google.com/file/d/1JE64pIaZSoofqD71nplepavqIPs_lsZw/view?usp=drive_link](https://drive.google.com/file/d/1hotOY8busuKmJ10RiecM6kbA7vZehi2U/view?usp=drive_link))**
 
 ### How to use the executable:
 1. Download the `.exe` file from the link above.
