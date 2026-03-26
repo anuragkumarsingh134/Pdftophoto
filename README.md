@@ -56,6 +56,16 @@ If you prefer to run the application from the source code, inspect the backend, 
    *(Or run `npm start`)*
 5. Open your web browser and go to `http://localhost:1000`.
 
+### Building the Executable (.exe)
+If you want to compile the project into a standalone Windows `.exe` file yourself:
+1. Make sure you have completed the setup instructions (especially `npm install`).
+2. Run the build script:
+   ```bash
+   npm run build
+   ```
+3. Wait a minute for the packaging process to complete.
+4. You will find the standalone `pdf-to-photo.exe` inside the newly created `dist` folder.
+
 ## 🛠️ Built With
 
 - **[Node.js](https://nodejs.org/)**: Backend server runtime.
